@@ -34,9 +34,6 @@ font-weight: 750;
 
 }
 
-.main {
-  display: inline-block;
-}
 /* Navigation bar */
 
 nav {
@@ -92,6 +89,7 @@ nav li {
 
 .img {
   width: 25%;
+  height: 300px;
   float: left;
   margin: 1.66%;
   vertical-align: middle;
@@ -102,7 +100,14 @@ nav li {
 
 .main {
   text-align: center;
+  position: absolute;
+    isplay: inline-block;
   /*margin-left: 40%;*/
+}
+
+.more {
+  float: left;
+  position: absolute;
 }
 
 .bottom {
@@ -111,7 +116,6 @@ nav li {
 
 footer {
 clear: both;
-position: absolute;
 background-color: #f2f2f1;
 padding: 20px;
 text-align: center;
@@ -120,4 +124,5 @@ text-align: center;
   border-width: 15px;
   border-color: #4aaaa5;
 position: sticky;
+margin-top: 100%;
 }
