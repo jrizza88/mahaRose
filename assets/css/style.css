@@ -82,6 +82,7 @@ nav li {
  /* position: absolute;*/
   display: inline-block;
   margin-bottom: -42px;
+  padding-bottom: 50px;
   /*width: 500px;*/
   /*margin-left: 40%;*/
 }
@@ -144,9 +145,14 @@ nav li {
  /* position: absolute;*/
 }
 
-.bottom {
-  float: left;
+.more button{
+  padding: 20px;
+  button-type
 }
+
+/*.bottom {
+  float: left;
+}*/
 
 .site-footer {
   float: left;
@@ -159,27 +165,27 @@ text-align: center;
   border-top: solid;
   border-width: 15px;
   border-color: black;
- /* position: sticky; */
 position: relative;
 width: 100%;
 display: block;
 height: 42px;
 }
-/*
-.site-footer {
-    cursor: default;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    position: relative;
-    text-align: center;
-    z-index: 1;
 
-    position: relative;
-clear: both;
-      font-size: 12px;
-  border-top: solid;
-  border-width: 15px;
-  border-color: black;
-  width: 100%;
-display: block;
-}*/
+.contactForm {
+  text-align: center;
+  margin: 30px 25% 30px 25%;
+     width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 72px 55px 90px 55px;
+/*  padding: 50%;*/
+}
+
+#input #name{
+  size: 33px;
+}
+
+form {
+  /*margin-left: 100px;*/
+}

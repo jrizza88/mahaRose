@@ -34,6 +34,30 @@
     </div>
   </header>
 
+<!--   <form method="post" name="myemailform" action="form-to-email.php">
+    <p>
+            <label for="name">Enter Name</label><br>
+            <button type="submit">Submit</button>
+    </p> -->
+
+    <form class="contactForm" action="#" method="POST" enctype="multipart/form-data">
+           <div class="row">
+            <label for="name">Name</label><br />
+            <input id="name" class="input" name="name" placeholder="Name" type="text" value="" /> <br />
+           </div>
+           <div class="row">
+             <label for="email">Email</label><br />
+             <input id="email" class="input" name="email" placeholder="example@email.com" type="text" value="" size="33" /><br />
+          </div>
+          <div class="row">
+            <label for="message">Message</label><br />
+            <textarea id="message" class="input" name="message" rows="22" cols="43"></textarea><br />
+          </div>
+           <input id="submit_button" type="submit" value="Submit" />
+   </form>
+
+
+ <footer class="site-footer"> &copy; Copyright 2017 Maha Rose</footer>
     <!-- HTML BoilerPlate -->        
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
