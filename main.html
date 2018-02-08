@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Maha Rose site!</title>
+         <title>Maha Rose Art</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
@@ -77,13 +77,22 @@
               <img src="assets/images/Harlem.jpg" class="img" alt="">
               <img src="assets/images/JimiHendrix.jpg" class="img" alt="">
               <img src="assets/images/SarahVaughn.jpg" class="img" alt="">
-              <img src="assets/images/AfricanGoddess.jpg" class="img" alt="">
            </div> 
         <div class="more">
-             <button><a href="portfolio.html">Check out more<a></button>
+             <button id="checkOutButton"><a href="portfolio.html">Check out more<a></button>
          </div>
 </div>
- <footer class="site-footer"> &copy; Copyright 2017 Maha Rose</footer>
+ <footer class="site-footer"> 
+    <div class="inner-wrap"> <a href="/"> Maha Rose Art Copyright ©</a>
+         <script>(function () {
+            const x = document.getElementsByTagName("script");
+            const y = x[x.length - 1];
+            const z = document.createTextNode(" " + (new Date()).getFullYear() + ". ");
+    
+            y.parentNode.insertBefore(z, y);
+          })()</script>
+        </div>
+  </footer>
 <script type="text/javascript" src="script.js"></script>
         <script src="assets/boilerplate/js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

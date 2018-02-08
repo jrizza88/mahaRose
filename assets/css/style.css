@@ -3,7 +3,7 @@ body {
 background-color: #E9DEFF;
 }
 
-body html {
+html, body {
   height: 100%;
 }
 
@@ -22,7 +22,7 @@ border-bottom: 1px solid black;
 
 .logo h2 {
      text-decoration: none;
-     margin-left: 25%;
+     margin-left: 23%;
    /*    clear: both;*/
     content: "";
 display: inline-block;
@@ -39,6 +39,7 @@ font-family: alegreya;
     font-size: 1rem;
     font-weight: 700;
     font-family: alegreya;
+
 }
 /*
 .logo h1 {
@@ -130,7 +131,8 @@ nav li {
   width: 25%;
   height: 300px;
   float: left;
-  margin: 1.66%;
+  padding: 1.66%;
+  border-radius: 75px;
   vertical-align: middle;
   position: static;
   /*transform: translate(50%, 50%);*/
@@ -140,52 +142,99 @@ nav li {
 
 .more {
   float: left;
+  position: relative;
   text-align: center;
-  margin-left: 50%;
+  margin-left: 45%;
  /* position: absolute;*/
 }
 
-.more button{
+#checkOutButton{
   padding: 20px;
-  button-type
+  border-radius: 20px;
+  text-align: center;
+  margin:0 auto;
 }
 
-/*.bottom {
-  float: left;
-}*/
+/*Contact Info */
 
-.site-footer {
+.wrap-contact{
+  min-height: 100%; 
   float: left;
+    width: 600px;
+    text-align: center;
+      display: block;
+/*      margin: 30px 25% 20px 25%;*/
+    border-radius: 10px;
+    overflow: hidden;
+    /*padding: 72px 55px 90px 55px;*/
+    font: 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#contactForm{
+     margin: 50px 20px 50px 20px;
+       padding: 72px 55px 90px 55px;
+         background: #fff;
+}
+
+
+.contact-form-title{
+  display: block;
+  font-size: 35px;
+  color: #333333;
+  line-height: 1.4;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+/*  margin: 30px 25% 30px 25%;*/
+/*     width: 600px;*/
+ /*    maybe width 100%?*/
+/*    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 72px 55px 90px 55px;*/
+/*  padding: 50%;*/
+}
+
+.input name{
+  width: 33px;
+}
+
+.focus-input{
+  padding-bottom: 10px;
+}
+
+form {
+  /*margin-left: 100px;*/
+}
+
+/*FOOTER*/
+
+.footer {
+float: left;
+position: relative;
 clear: both;
 cursor: default;
 background-color: #f2f2f1;
 padding: 10px;
 text-align: center;
-  font-size: 12px;
-  border-top: solid;
-  border-width: 15px;
+  font-size: 18px;
+  border-top: 1px solid black;
   border-color: black;
-position: relative;
 width: 100%;
 display: block;
-height: 42px;
-}
+height: 40px;
+} 
 
-.contactForm {
-  text-align: center;
-  margin: 30px 25% 30px 25%;
-     width: 600px;
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 72px 55px 90px 55px;
-/*  padding: 50%;*/
-}
-
-#input #name{
-  size: 33px;
-}
-
-form {
-  /*margin-left: 100px;*/
+.site-footer {
+  background-color:#fcfcfc;
+  color:#dfdfdf;
+  cursor:default;padding-top:2rem;
+  padding-bottom:2rem;
+  position:relative;
+  text-align:center;
+  z-index:1;
 }
