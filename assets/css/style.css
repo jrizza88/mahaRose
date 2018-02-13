@@ -7,32 +7,37 @@ html, body {
   height: 100%;
 }
 
-.logo{
-     padding-left: 30px;
-/*    padding-top: 15px;
-    padding-bottom: 15px;*/
-  /*background-color: pink;*/
-  background-color: #fcfcfc;
-  width: 100%;
-border-bottom: 1px solid black;
-/*  margin: 20px auto;*/
-/*text-transform: uppercase;*/
+/* Header bar */
 
+.site-header{
+  background-color: white;
+    width: 105%;
+  padding-bottom: 52px;
+  border-bottom: 1px solid black;
 }
 
-.logo h2 {
-     text-decoration: none;
-     margin-left: 23%;
-   /*    clear: both;*/
-    content: "";
-display: inline-block;
-font-family: alegreya;
-/*font-size: 30px;*/
+.fade {
+  opacity: 0.5;
+  background-color: white;
+}
+
+.fade:hover{
+  color: white;
+  background-color: steelblue;
+  opacity: 1;
+}
+
+.logo{
+     padding-left: 30px;
+  background-color: #fcfcfc;
+  text-transform: uppercase;
+  clear: both;
 }
 
 .logo a {
+  float: left;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px 20px 15px 20px;
   /*     clear: both;*/
     content: "";
     display: inline;
@@ -41,10 +46,19 @@ font-family: alegreya;
     font-family: alegreya;
 
 }
-/*
-.logo h1 {
-   width: 30%;
-}*/
+
+.logo h2 {
+/*    background-color: #fcfcfc;*/
+    float: right;
+     text-decoration: none;
+    content: "";
+display: inline-block;
+font-family: alegreya;
+padding-right: 150px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
 
 p {
 /* font-family: alegreya;*/
@@ -52,28 +66,6 @@ font-weight: 750;
 
 }
 
-/* Navigation bar */
-
-/*nav {
-  font-size: 20px;
-  width: 200px;
-  float: left;
-  background-color: #E9DEFF;
-  padding-bottom: 100%;
-  position: absolute;
-  height: 100%;
-  position: left;
-  text-align: left;
-
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav li {
-  margin-bottom: 4%;
-}*/
 
 /* Main Body */ 
 
@@ -158,12 +150,11 @@ nav li {
 /*Contact Info */
 
 .wrap-contact{
-  min-height: 100%; 
-  float: left;
-    width: 600px;
+    min-height: 100%; 
+    float: left;
+  /*  width: 75%;*/
     text-align: center;
-      display: block;
-/*      margin: 30px 25% 20px 25%;*/
+        margin: 70px 250px 30px 250px;
     border-radius: 10px;
     overflow: hidden;
     /*padding: 72px 55px 90px 55px;*/
@@ -173,9 +164,9 @@ nav li {
 }
 
 #contactForm{
-     margin: 50px 20px 50px 20px;
+      margin: 50px 20px 50px 20px;
        padding: 72px 55px 90px 55px;
-         background: #fff;
+        background: #fff;
 }
 
 
@@ -186,17 +177,6 @@ nav li {
   line-height: 1.4;
   text-align: center;
   padding-bottom: 50px;
-}
-
-
-/*  margin: 30px 25% 30px 25%;*/
-/*     width: 600px;*/
- /*    maybe width 100%?*/
-/*    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 72px 55px 90px 55px;*/
-/*  padding: 50%;*/
 }
 
 .input name{
@@ -229,11 +209,14 @@ display: block;
 height: 40px;
 } 
 
+/* contact page footer */
+
 .site-footer {
   background-color:#fcfcfc;
   color:#dfdfdf;
-  cursor:default;padding-top:2rem;
-  padding-bottom:2rem;
+  cursor:default;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   position:relative;
   text-align:center;
   z-index:1;
