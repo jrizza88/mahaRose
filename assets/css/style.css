@@ -23,7 +23,8 @@ html, body {
 
 .fade:hover{
   color: white;
-  background-color: steelblue;
+  /*text-shadow: -2px 2 black;*/
+  background-color: #E9DEFF;
   opacity: 1;
 }
 
@@ -152,9 +153,9 @@ font-weight: 750;
 .wrap-contact{
     min-height: 100%; 
     float: left;
-  /*  width: 75%;*/
+    width: 100%;
     text-align: center;
-        margin: 70px 250px 30px 250px;
+  /*  margin: 70px 250px 30px 400px;*/
     border-radius: 10px;
     overflow: hidden;
     /*padding: 72px 55px 90px 55px;*/
@@ -163,10 +164,10 @@ font-weight: 750;
     display: inline-block;
 }
 
-#contactForm{
-      margin: 50px 20px 50px 20px;
-       padding: 72px 55px 90px 55px;
-        background: #fff;
+#contactForm{   
+  margin: 150px 500px 30px 500px;
+  padding: 72px 55px 90px 55px;
+  background: #fff;
 }
 
 
